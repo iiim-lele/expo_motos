@@ -238,3 +238,66 @@
   width: 80%;
   max-width: 300px;
 }
+
+/* Footer */
+#footer {
+  background-color: var(--secondary);
+  color: #000;
+  padding: 2em;
+  font-style: bold;
+  text-align: center;
+}
+
+#footer h3 {
+  color: #000;
+  margin-bottom: 1rem;
+}
+
+#footer a {
+  color: #000;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  text-decoration: underline;
+}
+
+h4 {
+  font-size: 15px;
+}
+
+
+/* Media Queries */
+@media (min-width: 768px) {
+  #event-subscription {
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: left;
+  }
+
+  #disclaimer h2 {
+    font-size: 3em;
+  }
+
+  #disclaimer .about-event {
+    font-size: 2em;
+  }
+
+  .benefits {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .detail {
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .detail img {
+    width: 50%;
+  }
+
+  .detail-description {
+    width: 50%;
+  }
+}
